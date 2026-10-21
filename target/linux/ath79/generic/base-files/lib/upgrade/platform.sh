@@ -92,6 +92,7 @@ platform_do_upgrade() {
 	jjplus,ja76pf2)
 		platform_do_upgrade_redboot_fis "$1" linux
 		;;
+	datto,mp60|\
 	openmesh,a40|\
 	openmesh,a60|\
 	openmesh,mr600-v1|\

@@ -142,6 +142,7 @@ netgear,wndr4300tn|\
 netgear,wndr4300sw)
 	ubootenv_add_uci_config "/dev/mtd1" "0x0" "0x40000" "0x20000"
 	;;
+datto,mp60|\
 openmesh,om2p-v1|\
 openmesh,om2p-v2|\
 openmesh,om2p-v4|\

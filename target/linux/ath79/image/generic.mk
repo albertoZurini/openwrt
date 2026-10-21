@@ -953,6 +953,18 @@ define Device/compex_wpj563
 endef
 TARGET_DEVICES += compex_wpj563
 
+define Device/datto_mp60
+  $(Device/openmesh_common_64k)
+  SOC := qca9533
+  DEVICE_VENDOR := Datto
+  DEVICE_MODEL := MP60
+  IMAGE_SIZE := 7168k
+  DEVICE_PACKAGES += kmod-i2c-gpio
+  OPENMESH_CE_TYPE := P60
+  SUPPORTED_DEVICES += p60
+endef
+TARGET_DEVICES += datto_mp60
+
 define Device/dell_apl2x
   SOC := qca9550
   DEVICE_VENDOR := Dell
